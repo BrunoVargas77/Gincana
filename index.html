@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gincana de Segurança no Trabalho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Gincana de Segurança no Trabalho</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <button onclick="answer(0)" id="option1" class="option-button"></button>
+            <button onclick="answer(1)" id="option2" class="option-button"></button>
+            <button onclick="answer(2)" id="option3" class="option-button"></button>
+        </div>
+        <p id="feedback"></p>
+        <button id="next-question" onclick="nextQuestion()">Próxima Pergunta</button>
+        <p id="score">Pontuação: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
